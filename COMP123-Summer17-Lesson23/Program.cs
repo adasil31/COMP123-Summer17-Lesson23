@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace COMP123_Summer17_Lesson23
+    //Name: Alessandro da Silva Santos
+    //Data: August 1, 2017
+    //Description: Demo Application to showcase windows forms and UI controls 
+    //Version: 0.1 - Project was created 
 {
     static class Program
     {
@@ -16,7 +20,7 @@ namespace COMP123_Summer17_Lesson23
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DemoForm());
         }
     }
 }
